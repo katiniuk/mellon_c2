@@ -1,55 +1,394 @@
+body{
+	font-family: Open Sans,Arial,Helvetica,sans-serif;
+	background-color: #000;
+}
+
 @media (min-width: 1200px) {
-	.container-big{
+	.container-big {
 		max-width: 1280px;
+	}
+	.container-verybig {
+		max-width: 1560px;
 	}
 }
 
-#influence {
-	background-image:url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/RLMC87YA66JR1552926015954.jpg);
+#accueil {
+	background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/YQZWYZNZG9QO1578547462586.jpg);
 	background-position: center;
-	background-size:cover;
-}
-	
-#influence h2{
-	color: #ebdec2;
-	font-family: Open Sans,Arial,Helvetica,sans-serif;
-	padding-top:80px;
-	text-align:right;
-	font-size:17px;
-	font-weight:400;
-	text-transform: uppercase;
-	
+	background-size: cover;
+	height: 1114px;
 }
 
-#influence h1{
-	color: white;
-	font-family: Semplicita Pro,Open Sans,Arial,Helvetica,sans-serif;
+.space{
+	padding-top: 160px;
+}
+
+#accueil h1 {
+	color: #fff;
+	font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 55px;
+	font-weight: 700;
+}
+
+#accueil h2 {
+	color: #fff;
+	font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 17.28px;
+	font-weight: 700;
+	padding: 10px;
+	margin: 0;
+}
+
+#accueil p {
+	color: #ebdec2;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 20.736px;
+	font-weight: 400;
+	margin-top: 24px;
+}
+
+#accueil .link{
+	color: #ebdec2;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 20.736px;
+	font-weight: 400;
+	margin-top: 24px;
+	border: none;
+	outline: none;
+	text-decoration: underline;
+}
+
+#accueil .small-link{
+	color: #f8b700;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 14.4px;
+	font-weight: 400;
+	padding: 10px;
+	margin-top: 0;
+	border: none;
+	outline: none;
+	text-decoration: none;
+}
+
+#accueil .small-link:hover{
+	text-decoration: underline;
+}
+
+#accueil .list{
+	display: inline-flex;
+	margin-left: -10px;
+}
+
+#accueil a:not(.link) {
+	font-weight: 400;
+	text-transform: uppercase;
+	background: rgba(0, 0, 0, .4);
+	color: #f7b10a;
+	border: 1px solid #c77e19;
+	min-width: 180px;
+	transition: background .2s, color .2s;
+	text-align: center;
+	user-select: none;
+	padding: 12px 30px;
+	margin: 10px;
+}
+
+#accueil .button-container {
+	margin-top: 36px;
+	margin-left: -10px;
+	padding: 12px 12px 12px 0px;
+}
+
+#accueil a:not(.link):hover {
+	background: #b06601;
+	color: #ffd36b;
+}
+
+#accueil a.red {
+	font-weight: 400;
+	text-transform: uppercase;
+	background: rgba(159,22,0,.6);
+	color: #f7b10a;
+	border: 1px solid #ea3012;
+	min-width: 180px;
+	transition: background .2s, color .2s;
+	text-align: center;
+	user-select: none;
+	padding: 12px 30px;
+	margin: 10px;
+}
+
+#accueil a.red:hover {
+	background: #9f1600;
+	color: #ffd36b;
+}
+
+#accueil .grid{
+	margin: 0 -20px;
+	padding: 10px;
+	flex-basis: 48%;
+}
+
+#accueil .row .col-3{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.actu {
+	border: #504137 solid 1px;
+	transition: all .25s cubic-bezier(.23,1,.32,1) 0s;
+}
+
+.actu:hover {
+	border: #f8b700 solid 1px;
+}
+
+#actu-1 .img{
+	background-image: url(http://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/mv/MVKK5EJOGPU61470421579108.jpg);
+	background-position: center;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 210.94px;
+}
+
+#actu-2 .img{
+	background-image: url(http://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/1c/1C139J2HKLOH1585875000444.jpg);
+	background-position: center;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 210.94px;
+}
+
+#actu-3 .img{
+	background-image: url(http://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/ou/OUND5H3PHTLE1584717701069.jpg);
+	background-position: center;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 210.94px;
+}
+
+#actu-4 .img{
+	background-image: url(http://bnetcmsus-a.akamaihd.net/cms/blog_thumbnail/dg/DGW48CYS3WSY1586474388342.jpg);
+	background-position: center;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 210.94px;
+}
+
+
+#influence {
+	background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/RLMC87YA66JR1552926015954.jpg);
+	background-position: center;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 480px;
+}
+
+#influence h1 {
+	color: #fff;
+	font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 47px;
 	font-weight: 700;
 	text-align: right;
-	font-size: 47px;
-	margin-bottom:20px;
 }
 
-#influence p{
+
+#influence h2 {
 	color: #ebdec2;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-top: 80px;
 	text-align: right;
-	font-size: 19px;
-	margin-bottom:30px;
 }
 
-#influence a{
-	color: #ffd36b;
-	text-transform: uppercase;
-	padding: 12px 30px;
-	margin-bottom:100px;
-	display: inline-block;
-	border: 2px solid #c77e19;
+#influence p {
+	color: #ebdec2;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 17.28px;
+	font-weight: 400;
+	margin-top: 20px;
+	text-align: right;
+}
+
+a {
 	cursor: pointer;
+	text-decoration: none;
+	outline: solid 1px #000;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#influence a {
+	font-weight: 400;
+	text-transform: uppercase;
+	background: rgba(0, 0, 0, .4);
+	color: #f7b10a;
+	border: 1px solid #c77e19;
+	min-width: 180px;
+	transition: background .2s, color .2s;
 	text-align: center;
-	box-sizing: border-box;
+	user-select: none;
+	padding: 12px 30px;
+}
+
+#influence .button-container {
+	margin-top: 20px;
+	padding: 12px;
 }
 
 #influence a:hover {
-    color:#f7b10a;
-    background: #b06601;
-    }
+	background: #b06601;
+	color: #ffd36b;
+}
+
+.divider {
+	height: 5px;
+	position: relative;
+	background-color: #000;
+	width: 100%;
+}
+
+#avenement {
+	background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/LU2VY3R9P1L01586989638352.jpg);
+	background-position: center;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 480px;
+}
+
+#avenement h1 {
+	color: #fff;
+	font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 47px;
+	font-weight: 700;
+	text-align: left;
+}
+
+#avenement h2 {
+	color: #ebdec2;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-top: 80px;
+	text-align: left;
+}
+
+#avenement p {
+	color: #ebdec2;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 17.28px;
+	font-weight: 400;
+	margin-top: 20px;
+	text-align: left;
+}
+
+#avenement a {
+	font-weight: 400;
+	text-transform: uppercase;
+	background: rgba(0, 0, 0, .4);
+	color: #f7b10a;
+	border: 1px solid #c77e19;
+	min-width: 180px;
+	transition: background .2s, color .2s;
+	text-align: center;
+	user-select: none;
+	padding: 12px 30px;
+	margin: 10px;
+}
+
+#avenement .button-container {
+	margin-top: 20px;
+	margin-left: -10px;
+	padding: 12px 12px 12px 0px;
+}
+
+#avenement a:hover {
+	background: #b06601;
+	color: #ffd36b;
+}
+
+#avenement a.red {
+	font-weight: 400;
+	text-transform: uppercase;
+	background: rgba(159,22,0,.6);
+	color: #f7b10a;
+	border: 1px solid #ea3012;
+	min-width: 180px;
+	transition: background .2s, color .2s;
+	text-align: center;
+	user-select: none;
+	padding: 12px 30px;
+	margin: 10px;
+}
+
+#avenement a.red:hover {
+	background: #9f1600;
+	color: #ffd36b;
+}
+
+#voile{
+	background-image: url(https://bnetcmsus-a.akamaihd.net/cms/template_resource/X25LM2JG7R6D1585004631739.jpg);
+	background-position: center;
+	background-size: cover;
+	background-position: 50% 50%;
+	height: 480px;
+}
+
+#voile h1 {
+	color: #fff;
+	font-family: Semplicita Pro, Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 47px;
+	font-weight: 700;
+	text-align: right;
+}
+
+
+#voile h2 {
+	color: #ebdec2;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-top: 120px;
+	text-align: right;
+}
+
+#voile p {
+	color: #ebdec2;
+	font-family: Open Sans, Arial, Helvetica, sans-serif;
+	font-size: 17.28px;
+	font-weight: 400;
+	margin-top: 20px;
+	text-align: right;
+}
+
+#voile a {
+	font-weight: 400;
+	text-transform: uppercase;
+	background: rgba(0, 0, 0, .4);
+	color: #f7b10a;
+	border: 1px solid #c77e19;
+	min-width: 180px;
+	transition: background .2s, color .2s;
+	text-align: center;
+	user-select: none;
+	padding: 12px 30px;
+}
+
+#voile .button-container {
+	margin-top: 20px;
+	padding: 12px 12px 12px 0px;
+}
+
+#voile a:hover {
+	background: #b06601;
+	color: #ffd36b;
+}
+
+
+
